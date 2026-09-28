@@ -1,5 +1,7 @@
 # Neuron
 
+![Neuron logo](./brand.png)
+
 ### A language-agnostic runtime for composing and operating software capabilities.
 
 Neuron is an open runtime architecture for building software systems from **Capabilities** that can be defined and operated across different languages and execution environments.
