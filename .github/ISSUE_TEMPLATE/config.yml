@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Neuron Discussions
+    url: https://github.com/orgs/neuron-runtime/discussions
+    about: Ask a question, propose an idea, or get help using an existing capability.
+  - name: Report a security vulnerability
+    url: https://github.com/neuron-runtime/.github/security/advisories/new
+    about: Report a vulnerability privately. Please do not open a public issue for one.

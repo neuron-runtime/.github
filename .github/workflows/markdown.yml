@@ -1,0 +1,23 @@
+name: Markdown
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    name: Lint Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7.0.1
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v24.2.0
+        with:
+          globs: |
+            **/*.md

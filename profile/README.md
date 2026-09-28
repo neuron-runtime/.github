@@ -2,7 +2,7 @@
 
 ![Neuron logo](./brand.png)
 
-### A language-agnostic runtime for composing and operating software capabilities.
+## A language-agnostic runtime for composing and operating software capabilities
 
 Neuron is an open runtime architecture for building software systems from **Capabilities** that can be defined and operated across different languages and execution environments.
 
@@ -43,7 +43,7 @@ The **Neuron Assembly Protocol** connects definition tooling with the runtime.
 This separation allows implementations to evolve independently from system definitions while giving different languages and execution environments a common way to participate.
 
 > **Neuron is language-agnostic by design — from Assembly definition to Capability implementation.**
-> 
+>
 
 ---
 
@@ -123,7 +123,7 @@ This organization will host the Neuron runtime, SDKs, protocol implementations, 
 More repositories and documentation will be added here over time.
 
 > **Neuron**
-> 
-> 
+>
+>
 > Language-agnostic runtime infrastructure for composing and operating software capabilities.
 >

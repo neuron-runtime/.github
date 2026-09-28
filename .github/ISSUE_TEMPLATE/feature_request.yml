@@ -1,0 +1,73 @@
+name: Feature request
+description: Propose a capability, protocol change, or improvement to an existing part of Neuron.
+title: "feat: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem you are trying to solve. A proposal that starts from a solution is
+        harder to evaluate than one that starts from the need.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you unable to do today? What makes it hard or impossible?
+      placeholder: I need to pin a capability to a specific runtime version per assembly, but the manifest has no field for it, so every deployment resolves to whatever is latest.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+      description: What should be possible when this is done? Describe the behaviour, not the implementation.
+      placeholder: An assembly can declare a runtime version constraint, and N.O.R.E. resolves against it or fails with a clear compatibility error.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds you have tried, and approaches you ruled out. Include why.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of Neuron does this affect?
+      options:
+        - Neuron Assembly Protocol
+        - N.O.R.E. (runtime)
+        - TypeScript SDK
+        - Go SDK
+        - Python SDK
+        - Rust SDK
+        - Capability runtime
+        - Tooling or DX
+        - Documentation
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility impact
+      description: If this changes the protocol or a public API, describe how existing assemblies and SDK users would be affected.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions for a similar proposal.
+          required: true
+        - label: I would be willing to discuss the design before implementing it.
+          required: false

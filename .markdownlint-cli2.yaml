@@ -1,0 +1,4 @@
+config:
+  # Line length is disabled: this documentation uses one sentence per line for
+  # readable diffs, which MD013 cannot distinguish from an overlong line.
+  MD013: false
