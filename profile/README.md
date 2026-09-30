@@ -1,6 +1,6 @@
 # Neuron
 
-![Neuron logo](./brand.png)
+![Neuron logo](https://raw.githubusercontent.com/neuron-runtime/.github/main/profile/brand.png)
 
 ## A language-agnostic runtime for composing and operating software capabilities
 
